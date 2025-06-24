@@ -1,0 +1,12 @@
+[project]
+name = "poke-tool"
+version = "0.1.0"
+description = "FastAPI proxy server for PokeAPI - provides Pokemon knowledge to tool-using LLMs"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "httpx>=0.25.0",
+    "pydantic>=2.5.0"
+]
